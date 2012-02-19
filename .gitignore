@@ -1,0 +1,7 @@
+*.pdf
+*.exe
+*.pp
+*.obj
+*.out
+itrv/
+gateway/
