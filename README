@@ -1,0 +1,38 @@
+microwatt source repository.
+
+There are two build configurations:
+itrv
+gateway
+
+In order to swap between the two
+Right click on project "microwatt" then:
+Build Configurations->Set Active
+
+You will also require the simiplicit code from TI.
+
+I have this in:
+
+https://github.com/acrawford78/microwatt_simpliciti
+
+Extract or clone to:
+
+G:\ti\msp430\SimpliciTI_CCS_1_1_1_5xx
+
+(probably change the G: to C:)
+
+The location of the is has to be specified in:
+
+Properties->linked resources "path variables"
+
+DEV_ROOT
+G:\ti\msp430\SimpliciTI_CCS_1_1_1_5xx
+
+Change this to where you extracted SimpliciTI_CCS_1_1_1_5xx
+
+Refer to details at:
+
+http://processors.wiki.ti.com/index.php/SimpliciTI
+
+On how to re-add the simpliciti to project.
+
+I use the lastest code composer studio v5, appears to be much better than previous versions
